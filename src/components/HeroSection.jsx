@@ -46,8 +46,8 @@ const HeroSection = () => {
             </h1>
               
             {/* Updated Description Text */}
-            <p className="text-base md:text-lg text-[#2d5134] opacity-90 max-w-2xl mx-auto mb-6 md:mb-8 leading-relaxed">
-              Experience personalized care with Dr. Gauri Mehra, our certified Dietician, and Dr. Manish Sharma, our experienced Physician. Together, they provide comprehensive wellness solutions tailored just for you.
+            <p className="text-base font-semibold md:text-lg text-[#2d5134] opacity-90 max-w-2xl mx-auto mb-6 md:mb-8 leading-relaxed">
+              Experience personalized care with Dr. Gauri Mehra, our certified Dietician, and Dr. Manish Sharma, our experienced General Physician. Together, they provide comprehensive wellness solutions tailored just for you.
             </p>
               
             {/* CTA Button */}
