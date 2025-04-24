@@ -28,11 +28,11 @@ const WhyChooseUsSection = () => {
         animationDelay: '0.5s'
       }}>
         <Image
-          src="/images/stawberries.avif"
+          src="/images/stethoscope.png"
           alt="Strawberry decoration"
           width={120}
           height={120}
-          className="w-24 md:w-28 lg:w-32"
+          className="w-26 md:w-30 lg:w-34"
         />
       </div>
 
@@ -42,11 +42,11 @@ const WhyChooseUsSection = () => {
         animationDelay: '1.5s'
       }}>
         <Image
-          src="/images/leftfruit.avif"
+          src="/images/stethoscope.png"
           alt="Grapefruit decoration"
           width={120}
           height={120}
-          className="w-24 md:w-28 lg:w-32"
+          className="w-26 md:w-30 lg:w-34"
         />
       </div>
 
