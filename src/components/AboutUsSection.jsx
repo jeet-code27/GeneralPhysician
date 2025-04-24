@@ -33,6 +33,82 @@ const AboutUsSection = () => {
 
         {/* Doctor Cards Container */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            
+        <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
+            <div className="flex flex-col">
+              {/* Card Header with Image */}
+              <div className="bg-[#2d5134] p-6 flex items-center">
+                <div className="w-24 h-24 bg-white rounded-full overflow-hidden border-4 border-white flex-shrink-0">
+                  <Image
+                    src="/images/dr-manish.jpg"
+                    alt="Dr. Manish Sharma"
+                    width={96}
+                    height={96}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="ml-5 text-white">
+                  <h3 className={`${berkshire.className} text-2xl`}>
+                    Dr. Manish Sharma
+                  </h3>
+                  <p className="text-[#E7EECD] text-lg">M.D. (General Physician)</p>
+                </div>
+              </div>
+              
+              {/* Card Body */}
+              <div className="p-6">
+                {/* Contact Info */}
+                <div className="flex items-center mb-4">
+                  <BiSolidPhoneCall  className="h-5 w-5 text-[#eb7147] mr-2" />
+                  <p className="text-gray-700">Contact: 8690761918</p>
+                </div>
+                
+                {/* Specializations */}
+                <div className="mb-5">
+                  <h4 className="font-semibold text-[#2d5134] mb-3 bg-[#E7EECD] inline-block px-3 py-1 rounded">
+                    Specializations
+                  </h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3">
+                    {[
+                      "Seasonal Diseases",
+                      "Diabetes (Sugar)",
+                      "Respiratory Problems",
+                      "Cardiac Diseases",
+                      "Mental & Brain Disorders",
+                      "Thyroid Issues",
+                      "Paralysis & Bone Conditions",
+                      "Stomach Related Diseases"
+                    ].map((specialization, index) => (
+                      <div key={index} className="flex items-center">
+                        <FaCheck className="w-4 h-4 text-[#eb7147] mr-2" />
+                        <span className="text-gray-700">{specialization}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                
+                {/* Consultation Info */}
+                <div className="mt-4 pt-4 border-t border-gray-100">
+                  <div className="flex items-center mb-2">
+                    <FaClock className="h-5 w-5 text-[#eb7147] mr-2" />
+                    <p className="text-gray-700"><span className="font-medium">Hours:</span> 10:00 AM - 5:00 PM</p>
+                  </div>
+                  
+                  <div className="flex items-start">
+                    <FaLocationDot  className="h-5 w-10 text-[#eb7147] mr-2 mt-0.5" />
+                    <p className="text-gray-700"><span className="font-medium">Location:</span> Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</p>
+                  </div>
+                  <div className="flex items-center mb-2 mt-2">
+                    <FaHospital className="h-5 w-5 text-[#eb7147] mr-2" />
+                    <p className="text-gray-700"><span className="font-medium">Evening:</span> 5:00 PM - 8:00 PM (Pawan Putra Medical)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+   
+
+
           {/* Dr. Gauri Card */}
           <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
             <div className="flex flex-col">
@@ -97,83 +173,17 @@ const AboutUsSection = () => {
                     <FaLocationDot  className="h-5 w-12 text-[#eb7147] mr-2 mt-0.5" />
                     <p className="text-gray-700"><span className="font-medium">Location:</span> Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</p>
                   </div>
+                  <div className="flex items-center mb-2 mt-2">
+                    <FaHospital className="h-5 w-5 text-[#eb7147] mr-2 " />
+                    <p className="text-gray-700"><span className="font-medium">Evening:</span> 5:00 PM - 8:00 PM (Pawan Putra Medical)</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Dr. Manish Card */}
-          <div className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100">
-            <div className="flex flex-col">
-              {/* Card Header with Image */}
-              <div className="bg-[#2d5134] p-6 flex items-center">
-                <div className="w-24 h-24 bg-white rounded-full overflow-hidden border-4 border-white flex-shrink-0">
-                  <Image
-                    src="/images/dr-manish.jpg"
-                    alt="Dr. Manish Sharma"
-                    width={96}
-                    height={96}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="ml-5 text-white">
-                  <h3 className={`${berkshire.className} text-2xl`}>
-                    Dr. Manish Sharma
-                  </h3>
-                  <p className="text-[#E7EECD] text-lg">M.D. (General Physician)</p>
-                </div>
-              </div>
-              
-              {/* Card Body */}
-              <div className="p-6">
-                {/* Contact Info */}
-                <div className="flex items-center mb-4">
-                  <BiSolidPhoneCall  className="h-5 w-5 text-[#eb7147] mr-2" />
-                  <p className="text-gray-700">Contact: 8690761918</p>
-                </div>
-                
-                {/* Specializations */}
-                <div className="mb-5">
-                  <h4 className="font-semibold text-[#2d5134] mb-3 bg-[#E7EECD] inline-block px-3 py-1 rounded">
-                    Specializations
-                  </h4>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3">
-                    {[
-                      "Seasonal Diseases",
-                      "Diabetes (Sugar)",
-                      "Respiratory Problems",
-                      "Cardiac Diseases",
-                      "Mental & Brain Disorders",
-                      "Thyroid Issues",
-                      "Paralysis & Bone Conditions",
-                      "Stomach Related Diseases"
-                    ].map((specialization, index) => (
-                      <div key={index} className="flex items-center">
-                        <FaCheck className="w-4 h-4 text-[#eb7147] mr-2" />
-                        <span className="text-gray-700">{specialization}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                
-                {/* Consultation Info */}
-                <div className="mt-4 pt-4 border-t border-gray-100">
-                  <div className="flex items-center mb-2">
-                    <FaClock className="h-5 w-5 text-[#eb7147] mr-2" />
-                    <p className="text-gray-700"><span className="font-medium">Hours:</span> 10:00 AM - 5:00 PM</p>
-                  </div>
-                  <div className="flex items-center mb-2">
-                    <FaHospital className="h-5 w-5 text-[#eb7147] mr-2" />
-                    <p className="text-gray-700"><span className="font-medium">Evening:</span> 5:00 PM - 8:00 PM (Pawan Putra Medical)</p>
-                  </div>
-                  <div className="flex items-start">
-                    <FaLocationDot  className="h-5 w-10 text-[#eb7147] mr-2 mt-0.5" />
-                    <p className="text-gray-700"><span className="font-medium">Location:</span> Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+         
         </div>
 
         {/* Insurance & Facilities */}

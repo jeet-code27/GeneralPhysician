@@ -72,7 +72,7 @@ const Navbar = () => {
                   <path d="M12 7L7 10V16L12 19L17 16V10L12 7Z" fill="#f0f5e6" />
                 </svg>
               </div>
-              <span className="text-[#2d5134] font-bold text-2xl">Nutrizen</span>
+              <span className="text-[#2d5134] font-bold text-2xl">Clinic Name</span>
             </Link>
           </div>
 

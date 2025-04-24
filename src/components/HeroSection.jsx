@@ -31,7 +31,7 @@ const HeroSection = () => {
             animation: 'float 4s ease-in-out infinite'
           }}>
             <Image
-              src="/images/leftfruit.avif" 
+              src="/images/stethoscope.png" 
               alt="Grapefruit"
               width={180}
               height={180}
@@ -66,13 +66,13 @@ const HeroSection = () => {
             animation: 'float 4s ease-in-out infinite',
             animationDelay: '1s'
           }}>
-            <Image
-              src="/images/stawberries.avif" 
+            {/* <Image
+              src="/images/heart.png" 
               alt="Strawberries"
               width={240}
               height={180}
               className="w-44 md:w-52 lg:w-60"
-            />
+            /> */}
           </div>
         </div>
       </div>
