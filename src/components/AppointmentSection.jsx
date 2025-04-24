@@ -72,13 +72,13 @@ const AppointmentSection = () => {
         animation: 'float 4s ease-in-out infinite',
         animationDelay: '0.5s'
       }}>
-        <Image
+        {/* <Image
           src="/images/fruit3.png" 
           alt="Strawberries"
           width={220}
           height={180}
           className="w-40 md:w-56 lg:w-64"
-        />
+        /> */}
       </div>
 
       {/* Top right fruit - Made larger */}
@@ -86,13 +86,13 @@ const AppointmentSection = () => {
         animation: 'float 4s ease-in-out infinite',
         animationDelay: '1.5s'
       }}>
-        <Image
+        {/* <Image
           src="/images/leftfruit.avif" 
           alt="Grapefruit"
           width={180}
           height={180}
           className="w-36 md:w-44 lg:w-52"
-        />
+        /> */}
       </div>
 
       {/* Animation keyframes */}
