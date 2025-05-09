@@ -293,7 +293,7 @@ export default function ChronicDiseaseManagement() {
         </svg>
       </div>
       <p className="text-gray-700 italic pt-2">
-      "Dr. Sharma has been helping me with my asthma for a long time. His regular checkups and treatment plan made it easier for me to breathe and live a normal life. His chronic care is really good and easy to follow.""
+      &quot;Dr. Sharma has been helping me with my asthma for a long time. His regular checkups and treatment plan made it easier for me to breathe and live a normal life. His chronic care is really good and easy to follow.&quot;
       </p>
       <div className="flex items-center mt-3">
         <div className="h-8 w-8 rounded-full bg-[#2d5134] text-white flex items-center justify-center font-bold mr-2">
@@ -422,7 +422,7 @@ export default function ChronicDiseaseManagement() {
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">How often will I need to visit for my chronic condition?</h3>
             <p className="text-gray-700">
-              This depends on your specific condition and how well it's controlled. Most patients start with monthly visits, then move to every 3-6 months once their condition is stable. We'll create a schedule that works best for you.
+              This depends on your specific condition and how well it&apos;s controlled. Most patients start with monthly visits, then move to every 3-6 months once their condition is stable. We&apos;ll create a schedule that works best for you.
             </p>
           </div>
           
@@ -443,14 +443,14 @@ export default function ChronicDiseaseManagement() {
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Can diet and exercise really help my chronic condition?</h3>
             <p className="text-gray-700">
-              Yes, absolutely! Diet and exercise are powerful tools for managing most chronic conditions. Even small changes can make a big difference. We'll help you find simple food and activity changes that fit your life and actually work.
+              Yes, absolutely! Diet and exercise are powerful tools for managing most chronic conditions. Even small changes can make a big difference. We&apos;ll help you find simple food and activity changes that fit your life and actually work.
             </p>
           </div>
           
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">What should I do if I have an emergency related to my condition?</h3>
             <p className="text-gray-700">
-              For life-threatening emergencies, always call emergency services first. For other urgent concerns, our patients have access to our clinic hotline. We'll teach you the warning signs to watch for and create an emergency plan specific to your condition.
+              For life-threatening emergencies, always call emergency services first. For other urgent concerns, our patients have access to our clinic hotline. We&apos;ll teach you the warning signs to watch for and create an emergency plan specific to your condition.
             </p>
           </div>
         </div>

@@ -123,7 +123,7 @@ export default function PreventiveCare() {
                 <li>Lower healthcare costs in the long run</li>
                 <li>Personalized health advice and guidance</li>
                 <li>Improved quality of life and longevity</li>
-                <li>Peace of mind knowing you're taking proactive steps for your health</li>
+                <li>Peace of mind knowing you&apos;re taking proactive steps for your health</li>
               </ul>
             </section>
             
@@ -265,7 +265,7 @@ export default function PreventiveCare() {
         </svg>
       </div>
       <p className="text-gray-700 italic pt-2">
-        "Dr. Sharma's comprehensive approach to my diabetes management completely transformed my health. His preventive strategies helped me avoid complications I didn't even know I was at risk for."
+      &quot;Dr. Sharma&apos;s comprehensive approach to my diabetes management completely transformed my health. His preventive strategies helped me avoid complications I didn&apos;t even know I was at risk for.&quot;
       </p>
       <div className="flex items-center mt-3">
         <div className="h-8 w-8 rounded-full bg-[#2d5134] text-white flex items-center justify-center font-bold mr-2">
@@ -394,14 +394,14 @@ export default function PreventiveCare() {
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">How often should I schedule preventive care check-ups?</h3>
             <p className="text-gray-700">
-              For most adults, we recommend an annual comprehensive check-up. However, the frequency may vary based on your age, existing health conditions, and risk factors. During your first consultation, we'll create a personalized schedule that's right for you.
+              For most adults, we recommend an annual comprehensive check-up. However, the frequency may vary based on your age, existing health conditions, and risk factors. During your first consultation, we&apos;ll create a personalized schedule that&apos;s right for you.
             </p>
           </div>
           
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">What should I bring to my first preventive care appointment?</h3>
             <p className="text-gray-700">
-              Please bring your complete medical history, list of current medications, any recent test results, information about allergies, and details of your family's health history. This helps us create a comprehensive picture of your health status.
+              Please bring your complete medical history, list of current medications, any recent test results, information about allergies, and details of your family&apos;s health history. This helps us create a comprehensive picture of your health status.
             </p>
           </div>
           

@@ -45,7 +45,7 @@ export default function NutritionCounseling() {
           </h1>
           
           <p className="text-lg text-[#2d5134]/80 max-w-3xl">
-            Simple, personalized food plans by Ajmer's top doctors to help manage health problems, boost energy, and feel your best without complicated diet rules.
+            Simple, personalized food plans by Ajmer&apos;s top doctors to help manage health problems, boost energy, and feel your best without complicated diet rules.
           </p>
         </div>
       </div>
@@ -73,7 +73,7 @@ export default function NutritionCounseling() {
                 Nutrition counseling is getting expert help with your food choices to improve your health. At our clinic in Ajmer, we explain the link between what you eat and your health problems in simple terms. Our doctors create easy-to-follow food plans that work with your daily life.
               </p>
               <p className="text-gray-700 mb-4">
-                Unlike general diet tips you find online, our nutrition advice is based on your specific health needs, blood test results, and medical conditions. We don't give the same advice to everyone - we make food plans just for you.
+                Unlike general diet tips you find online, our nutrition advice is based on your specific health needs, blood test results, and medical conditions. We don&apos;t give the same advice to everyone - we make food plans just for you.
               </p>
             </section>
 
@@ -107,7 +107,7 @@ export default function NutritionCounseling() {
                 <div className="bg-[#f5f9f0] p-6 rounded-lg border-l-4 border-[#2d5134]">
                   <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Nutrition for Special Life Stages</h3>
                   <p className="text-gray-700">
-                    We provide nutrition guidance for pregnancy, breastfeeding, children's growth, and senior health. Each life stage has different nutrition needs, and our doctors help you meet these needs with simple food choices.
+                    We provide nutrition guidance for pregnancy, breastfeeding, children&apos;s growth, and senior health. Each life stage has different nutrition needs, and our doctors help you meet these needs with simple food choices.
                   </p>
                 </div>
 
@@ -135,7 +135,7 @@ export default function NutritionCounseling() {
                 <li>Explaining food choices in simple language without complex terms</li>
                 <li>Making small, doable changes instead of complete diet overhauls</li>
                 <li>Teaching you how to make healthier versions of your favorite foods</li>
-                <li>Providing simple recipes that don't need special cooking skills</li>
+                <li>Providing simple recipes that don&apos;t need special cooking skills</li>
               </ul>
             </section>
             
@@ -167,7 +167,7 @@ export default function NutritionCounseling() {
                 Dr. Gauri Mehra is recognized as one of the best nutrition specialists in Ajmer with over 15 years of experience. Unlike general dieticians, she understands how food affects medical conditions and creates plans that help both your health and weight goals.
               </p>
               <p className="text-gray-700 mb-4">
-                Our clinic combines medical knowledge with practical food advice. We understand local Ajmer food habits and create plans that work with your family's cooking style and schedule. Our simple approach makes it easy to follow healthy eating without feeling deprived or confused.
+                Our clinic combines medical knowledge with practical food advice. We understand local Ajmer food habits and create plans that work with your family&apos;s cooking style and schedule. Our simple approach makes it easy to follow healthy eating without feeling deprived or confused.
               </p>
             </section>
           </div>
@@ -177,14 +177,14 @@ export default function NutritionCounseling() {
             {/* Book Appointment Card with Improved Design */}
             <div className="bg-gradient-to-br from-[#2d5134] to-[#1d3422] text-white p-6 rounded-lg mb-8 shadow-lg">
               <h3 className={`${berkshire.className} text-2xl mb-4`}>
-                Get Personalized Nutrition Advice
+                Start Your Weight Journey
               </h3>
               <div className="flex items-center mb-5 bg-white/10 p-3 rounded-lg">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-[#eb7147] mr-3 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                 </svg>
                 <p className="text-sm">
-                  Receive a <span className="font-bold">doctor-designed nutrition plan</span> tailored to your health needs
+                  Receive a <span className="font-bold">personalized weight plan</span> tailored to your health needs and lifestyle
                 </p>
               </div>
               <div className="flex items-center mb-6 bg-white/10 p-3 rounded-lg">
@@ -195,35 +195,32 @@ export default function NutritionCounseling() {
                   <span className="font-bold">15-minute consultation</span> with Dr. Gauri to assess your needs
                 </p>
               </div>
-               <Link
-              href="/bookconsultation">
-              <button className="w-full bg-[#eb7147] hover:bg-[#d15e37] cursor-pointer text-white py-3 px-4 rounded-lg transition duration-300 flex items-center justify-center font-bold shadow-md">
+              <button className="w-full bg-[#eb7147] hover:bg-[#d15e37] text-white py-3 px-4 rounded-lg transition duration-300 flex items-center justify-center font-bold shadow-md">
                 Book Consultation
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-              </Link>
             </div>
             
             {/* Doctor Info with Improved Visual Design */}
             <div className="bg-white border border-gray-200 p-6 rounded-lg mb-8 shadow-md">
               <h3 className={`${berkshire.className} text-2xl text-[#2d5134] mb-4`}>
-                Meet Your Nutrition Expert
+                Meet Your Expert
               </h3>
               <div className="flex flex-col items-center mb-4 relative">
                 <div className="w-32 h-32 rounded-full overflow-hidden mb-4 border-4 border-[#f5f9f0] shadow-md">
                   <Image 
                     src="/images/dr-gauri.jpg" 
-                    alt="Dr. Gauri Mehra - Best Nutrition Doctor in Ajmer" 
+                    alt="Dr. Gauri Mehra - Best Weight Management Doctor in Ajmer" 
                     width={128} 
                     height={128}
                     className="w-full h-full object-cover" 
                   />
                 </div>
-
+                
                 <h4 className="text-xl font-semibold text-[#2d5134]">Dr. Gauri Mehra</h4>
-                <p className="text-gray-600">Nutrition & Diet Specialist</p>
+                <p className="text-gray-600">Weight Management Specialist</p>
                 <div className="flex items-center mt-2 text-yellow-500">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
@@ -263,7 +260,7 @@ export default function NutritionCounseling() {
                   </div>
                   <div>
                     <p className="text-sm text-gray-500">Specialization</p>
-                    <p className="font-semibold text-[#2d5134]">Medical Nutrition Therapy</p>
+                    <p className="font-semibold text-[#2d5134]">Medical Weight Management</p>
                   </div>
                 </div>
                 
@@ -300,15 +297,15 @@ export default function NutritionCounseling() {
                   </svg>
                 </div>
                 <p className="text-gray-700 italic pt-2">
-                  "Dr. Gauri's nutrition advice helped me reverse my prediabetes in just 6 months. Her simple food swaps and portion guidance made healthy eating easy to follow with my busy schedule."
+                &quot;After years of failed diets, Dr. Gauri&apos;s program helped me lose 22kg and keep it off for 3 years. Her practical approach made healthy eating doable with my busy schedule.&quot;
                 </p>
                 <div className="flex items-center mt-3">
                   <div className="h-8 w-8 rounded-full bg-[#2d5134] text-white flex items-center justify-center font-bold mr-2">
-                    A
+                    P
                   </div>
                   <div>
-                    <p className="font-semibold text-sm text-[#2d5134]">Anita K.</p>
-                    <p className="text-xs text-gray-500">Prediabetes Management</p>
+                    <p className="font-semibold text-sm text-[#2d5134]">Priya M.</p>
+                    <p className="text-xs text-gray-500">Lost 22kg in 10 months</p>
                   </div>
                 </div>
               </div>
@@ -321,28 +318,28 @@ export default function NutritionCounseling() {
               </h3>
               <ul className="divide-y divide-gray-100">
                 <li className="py-3">
-                  <Link href="/services/weight-management" className="flex items-center text-gray-700 hover:text-[#eb7147] transition duration-300 group">
+                  <Link href="/services/meal-planning" className="flex items-center text-gray-700 hover:text-[#eb7147] transition duration-300 group">
                     <div className="bg-[#f5f9f0] group-hover:bg-[#eb7147]/10 p-2 rounded-lg mr-3">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#2d5134] group-hover:text-[#eb7147]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
                       </svg>
                     </div>
                     <div>
-                      <p className="font-medium">Weight Management</p>
-                      <p className="text-xs text-gray-500">Healthy, sustainable weight control</p>
+                      <p className="font-medium">Meal Planning</p>
+                      <p className="text-xs text-gray-500">Customized weekly/monthly meal plans</p>
                     </div>
                   </Link>
                 </li>
                 <li className="py-3">
-                  <Link href="/services/meal-planning" className="flex items-center text-gray-700 hover:text-[#eb7147] transition duration-300 group">
+                  <Link href="/services/nutrition-counseling" className="flex items-center text-gray-700 hover:text-[#eb7147] transition duration-300 group">
                     <div className="bg-[#f5f9f0] group-hover:bg-[#eb7147]/10 p-2 rounded-lg mr-3">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-[#2d5134] group-hover:text-[#eb7147]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
                       </svg>
                     </div>
                     <div>
-                      <p className="font-medium">Meal Planning</p>
-                      <p className="text-xs text-gray-500">Customized weekly/monthly meal plans</p>
+                      <p className="font-medium">Nutrition Counseling</p>
+                      <p className="text-xs text-gray-500">Expert guidance for better eating habits</p>
                     </div>
                   </Link>
                 </li>
@@ -392,15 +389,12 @@ export default function NutritionCounseling() {
                 </svg>
                 <p>gaurnishhealth@gmail.com</p>
               </div>
-               <Link
-              href="/contact">
-              <button className="w-full bg-white text-[#eb7147] hover:bg-gray-100 cursor-pointer py-2 px-4 rounded-lg transition duration-300 flex items-center justify-center font-semibold">
+              <button className="w-full bg-white text-[#eb7147] hover:bg-gray-100 py-2 px-4 rounded-lg transition duration-300 flex items-center justify-center font-semibold">
                 Contact Us
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                 </svg>
               </button>
-              </Link>
             </div>
           </div>
         </div>
@@ -433,7 +427,7 @@ export default function NutritionCounseling() {
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">How often will I need follow-up visits?</h3>
             <p className="text-gray-700">
-              Most patients start with follow-ups every 2-4 weeks until they're comfortable with their new eating plan. Then visits can be spaced to once every 2-3 months. The schedule depends on your health conditions and how quickly you're seeing improvements.
+              Most patients start with follow-ups every 2-4 weeks until they&apos;re comfortable with their new eating plan. Then visits can be spaced to once every 2-3 months. The schedule depends on your health conditions and how quickly you&apos;re seeing improvements.
             </p>
           </div>
           

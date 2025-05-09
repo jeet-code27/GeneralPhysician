@@ -45,7 +45,7 @@
             </h1>
             
             <p className="text-lg text-[#2d5134]/80 max-w-3xl">
-                Ready-to-use weekly and monthly meal plans with simple recipes and shopping lists created by Ajmer's best doctors to help you reach your health goals.
+                Ready-to-use weekly and monthly meal plans with simple recipes and shopping lists created by Ajmer&apos;s best doctors to help you reach your health goals.
             </p>
             </div>
         </div>
@@ -107,7 +107,7 @@
                     <div className="bg-[#f5f9f0] p-6 rounded-lg border-l-4 border-[#2d5134]">
                     <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Family Meal Plans</h3>
                     <p className="text-gray-700">
-                        We create meal plans that work for the whole family, even when one person has special health needs. These plans focus on core meals everyone can eat with simple modifications for different family members' health conditions.
+                        We create meal plans that work for the whole family, even when one person has special health needs. These plans focus on core meals everyone can eat with simple modifications for different family members&apos; health conditions.
                     </p>
                     </div>
 
@@ -282,7 +282,7 @@
         </svg>
       </div>
       <p className="text-gray-700 italic pt-2">
-        "Dr. Gauri's meal plan helped me control my diabetes without giving up my favorite foods. My blood sugar is now stable, and I've lost 8kg in 3 months!"
+      &quot;Dr. Gauri&apos;s meal plan helped me control my diabetes without giving up my favorite foods. My blood sugar is now stable, and I&apos;ve lost 8kg in 3 months!&quot;
       </p>
       <div className="flex items-center mt-3">
         <div className="h-8 w-8 rounded-full bg-[#2d5134] text-white flex items-center justify-center font-bold mr-2">
@@ -436,7 +436,7 @@
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                     </span>
-                    <p>Including simple recipes that don't need special cooking skills</p>
+                    <p>Including simple recipes that don&apos;t need special cooking skills</p>
                     </div>
                     <div className="flex items-start">
                     <span className="mr-3 text-[#eb7147] mt-1">
@@ -505,21 +505,21 @@
             <div className="border-b border-gray-200 pb-4">
                 <h3 className="text-xl font-semibold text-[#2d5134] mb-2">How are your meal plans different from online meal plans?</h3>
                 <p className="text-gray-700">
-                Our meal plans are created by Ajmer's top doctors specially for your health conditions, medications, and food preferences. Online plans are general and don't consider your specific health needs or local food availability. Our plans use ingredients you can find in Ajmer markets and recipes that work with Indian cooking methods.
+                Our meal plans are created by Ajmer&apos;s top doctors specially for your health conditions, medications, and food preferences. Online plans are general and don&apos;t consider your specific health needs or local food availability. Our plans use ingredients you can find in Ajmer markets and recipes that work with Indian cooking methods.
                 </p>
             </div>
             
             <div className="border-b border-gray-200 pb-4">
                 <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Do I need special cooking skills to follow your meal plans?</h3>
                 <p className="text-gray-700">
-                No, our meal plans include simple recipes that anyone can make. We focus on basic cooking methods and provide clear instructions. Many dishes take just 15-30 minutes to prepare. We also include no-cook meal options and tips for quick food prep when you're busy.
+                No, our meal plans include simple recipes that anyone can make. We focus on basic cooking methods and provide clear instructions. Many dishes take just 15-30 minutes to prepare. We also include no-cook meal options and tips for quick food prep when you&apos;re busy.
                 </p>
             </div>
             
             <div className="border-b border-gray-200 pb-4">
                 <h3 className="text-xl font-semibold text-[#2d5134] mb-2">How do I handle meal plans when cooking for my family?</h3>
                 <p className="text-gray-700">
-                Our family meal plans are designed so everyone can eat the same core meals with small adjustments as needed. We focus on healthy foods that appeal to all family members and provide tips for modifying portions or ingredients for different health needs. This way, you won't need to cook separate meals.
+                Our family meal plans are designed so everyone can eat the same core meals with small adjustments as needed. We focus on healthy foods that appeal to all family members and provide tips for modifying portions or ingredients for different health needs. This way, you won&apos;t need to cook separate meals.
                 </p>
             </div>
             
@@ -533,7 +533,7 @@
             <div className="border-b border-gray-200 pb-4">
                 <h3 className="text-xl font-semibold text-[#2d5134] mb-2">How often should I update my meal plan?</h3>
                 <p className="text-gray-700">
-                Most patients benefit from updating their meal plans every 2-3 months or whenever there's a significant change in their health or lifestyle. Seasonal updates are also helpful to include fresh, available produce. As your health improves, we can adjust your plan to include more food options while maintaining your progress.
+                Most patients benefit from updating their meal plans every 2-3 months or whenever there&apos;s a significant change in their health or lifestyle. Seasonal updates are also helpful to include fresh, available produce. As your health improves, we can adjust your plan to include more food options while maintaining your progress.
                 </p>
             </div>
             </div>

@@ -45,7 +45,7 @@ export default function SpecializedTreatment() {
           </h1>
           
           <p className="text-lg text-[#2d5134]/80 max-w-3xl">
-            Expert care for health problems like diabetes, high blood pressure, and heart conditions from Ajmer's top general physician with easy-to-follow treatment plans.
+            Expert care for health problems like diabetes, high blood pressure, and heart conditions from Ajmer&apos;s top general physician with easy-to-follow treatment plans.
           </p>
         </div>
       </div>
@@ -298,7 +298,7 @@ export default function SpecializedTreatment() {
         </svg>
       </div>
       <p className="text-gray-700 italic pt-2">
-        "Dr. Sharma's comprehensive approach to my diabetes management completely transformed my health. His preventive strategies helped me avoid complications I didn't even know I was at risk for."
+      &quot;Dr. Sharma&apos;s comprehensive approach to my diabetes management completely transformed my health. His preventive strategies helped me avoid complications I didn&apos;t even know I was at risk for.&quot;
       </p>
       <div className="flex items-center mt-3">
         <div className="h-8 w-8 rounded-full bg-[#2d5134] text-white flex items-center justify-center font-bold mr-2">
@@ -427,21 +427,21 @@ export default function SpecializedTreatment() {
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">How long will my treatment take?</h3>
             <p className="text-gray-700">
-              This depends on your health problem. Some issues can improve in a few weeks, while others need longer care. Dr. Manish Sharma, Ajmer's top general physician, will tell you what to expect during your first visit.
+              This depends on your health problem. Some issues can improve in a few weeks, while others need longer care. Dr. Manish Sharma, Ajmer&apos;s top general physician, will tell you what to expect during your first visit.
             </p>
           </div>
           
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Do I need to bring my old medical reports?</h3>
             <p className="text-gray-700">
-              Yes, please bring any test reports, medicine lists, or doctor notes you have. These help us understand your health history better and avoid repeating tests you've already done.
+              Yes, please bring any test reports, medicine lists, or doctor notes you have. These help us understand your health history better and avoid repeating tests you&apos;ve already done.
             </p>
           </div>
           
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">How much will the treatment cost?</h3>
             <p className="text-gray-700">
-              We keep our fees fair and affordable for everyone in Ajmer. The cost depends on your specific health needs. We'll discuss all costs clearly before starting any treatment, and we offer payment plans if needed.
+              We keep our fees fair and affordable for everyone in Ajmer. The cost depends on your specific health needs. We&apos;ll discuss all costs clearly before starting any treatment, and we offer payment plans if needed.
             </p>
           </div>
           

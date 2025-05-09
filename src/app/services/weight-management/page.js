@@ -70,7 +70,7 @@ export default function WeightManagement() {
                 What is Healthy Weight Management?
               </h2>
               <p className="text-gray-700 mb-4">
-                Weight management is about achieving and maintaining a healthy weight through balanced eating, regular activity, and sustainable lifestyle changes. At our Ajmer clinic, we focus on gradual, healthy approaches rather than quick fixes that don't last.
+                Weight management is about achieving and maintaining a healthy weight through balanced eating, regular activity, and sustainable lifestyle changes. At our Ajmer clinic, we focus on gradual, healthy approaches rather than quick fixes that don&apos;t last.
               </p>
               <p className="text-gray-700 mb-4">
                 Unlike fad diets that promise rapid results, our weight management programs are medically supervised and tailored to your unique metabolism, health conditions, and daily routine. We help you develop habits that lead to lasting weight control and better overall health.
@@ -114,7 +114,7 @@ export default function WeightManagement() {
                 <div className="bg-[#f5f9f0] p-6 rounded-lg border-l-4 border-[#2d5134]">
                   <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Maintenance & Follow-up</h3>
                   <p className="text-gray-700">
-                    Ongoing support to help you maintain your weight loss, with regular check-ins to adjust your plan as needed. We teach strategies to prevent weight regain and handle life's challenges.
+                    Ongoing support to help you maintain your weight loss, with regular check-ins to adjust your plan as needed. We teach strategies to prevent weight regain and handle life&apos;s challenges.
                   </p>
                 </div>
               </div>
@@ -146,10 +146,10 @@ export default function WeightManagement() {
                 Why Choose Us for Weight Management in Ajmer
               </h2>
               <p className="text-gray-700 mb-4">
-                Dr. Gauri Mehra is recognized as one of Ajmer's leading weight management specialists, with extensive training in both medical nutrition therapy and behavioral change strategies. Our clinic takes a comprehensive approach that addresses all factors influencing weight - physical, psychological, and environmental.
+                Dr. Gauri Mehra is recognized as one of Ajmer&apos;s leading weight management specialists, with extensive training in both medical nutrition therapy and behavioral change strategies. Our clinic takes a comprehensive approach that addresses all factors influencing weight - physical, psychological, and environmental.
               </p>
               <p className="text-gray-700 mb-4">
-                What sets us apart is our focus on sustainable results. We don't believe in extreme diets or unrealistic exercise regimens. Instead, we help you make gradual changes that become permanent parts of your lifestyle. Our team provides continuous support and accountability to keep you motivated throughout your journey.
+                What sets us apart is our focus on sustainable results. We don&apos;t believe in extreme diets or unrealistic exercise regimens. Instead, we help you make gradual changes that become permanent parts of your lifestyle. Our team provides continuous support and accountability to keep you motivated throughout your journey.
               </p>
             </section>
           </div>
@@ -279,7 +279,7 @@ export default function WeightManagement() {
                   </svg>
                 </div>
                 <p className="text-gray-700 italic pt-2">
-                  "After years of failed diets, Dr. Gauri's program helped me lose 22kg and keep it off for 3 years. Her practical approach made healthy eating doable with my busy schedule."
+                &quot;After years of failed diets, Dr. Gauri&apos;s program helped me lose 22kg and keep it off for 3 years. Her practical approach made healthy eating doable with my busy schedule.&quot;
                 </p>
                 <div className="flex items-center mt-3">
                   <div className="h-8 w-8 rounded-full bg-[#2d5134] text-white flex items-center justify-center font-bold mr-2">
@@ -484,21 +484,21 @@ export default function WeightManagement() {
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Do I need to buy special foods or supplements?</h3>
             <p className="text-gray-700">
-              No, our program uses regular foods available in local Ajmer markets. We don't recommend expensive supplements or meal replacements. Occasionally, we might suggest basic vitamins if blood tests show deficiencies, but these are standard supplements available at any pharmacy. Our focus is on teaching you how to make healthy choices with everyday foods.
+              No, our program uses regular foods available in local Ajmer markets. We don&apos;t recommend expensive supplements or meal replacements. Occasionally, we might suggest basic vitamins if blood tests show deficiencies, but these are standard supplements available at any pharmacy. Our focus is on teaching you how to make healthy choices with everyday foods.
             </p>
           </div>
           
           <div className="border-b border-gray-200 pb-4">
-            <h3 className="text-xl font-semibold text-[#2d5134] mb-2">I've tried many diets before - why would this work?</h3>
+            <h3 className="text-xl font-semibold text-[#2d5134] mb-2">I&apos;ve tried many diets before - why would this work?</h3>
             <p className="text-gray-700">
-              Most diets fail because they're too restrictive or don't address underlying health issues affecting weight. Our medical approach is different - we first identify and treat any metabolic or hormonal imbalances. Then we create a personalized plan that fits your lifestyle, not a one-size-fits-all diet. We also provide ongoing support to help you overcome plateaus and maintain your results.
+              Most diets fail because they&apos;re too restrictive or don&apos;t address underlying health issues affecting weight. Our medical approach is different - we first identify and treat any metabolic or hormonal imbalances. Then we create a personalized plan that fits your lifestyle, not a one-size-fits-all diet. We also provide ongoing support to help you overcome plateaus and maintain your results.
             </p>
           </div>
           
           <div className="border-b border-gray-200 pb-4">
             <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Can I still eat out or attend family gatherings?</h3>
             <p className="text-gray-700">
-              Absolutely! We provide practical strategies for navigating social events, festivals, and restaurant meals. Real life includes celebrations, and we teach you how to enjoy them while staying on track. You'll learn how to make better choices when eating out, manage portions, and balance special occasions with healthier days.
+              Absolutely! We provide practical strategies for navigating social events, festivals, and restaurant meals. Real life includes celebrations, and we teach you how to enjoy them while staying on track. You&apos;ll learn how to make better choices when eating out, manage portions, and balance special occasions with healthier days.
             </p>
           </div>
           
