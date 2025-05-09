@@ -130,7 +130,9 @@ const AboutUsSection = () => {
                       "Mental & Brain Disorders",
                       "Thyroid Issues",
                       "Paralysis & Bone Conditions",
-                      "Stomach Related Diseases"
+                      "Stomach Related Diseases",
+                      "Blood Pressure",
+                      // "Abdominal Conditions",
                     ].map((specialization, index) => (
                       <motion.div 
                         key={index}
@@ -336,8 +338,8 @@ const AboutUsSection = () => {
             whileTap={{ scale: 0.95 }}
           >
             <Link
-              href="/appointment"
-              className="inline-flex items-center justify-center px-10 py-4 bg-[#eb7147] hover:bg-[#d15e37] text-white text-xl font-medium transition-colors duration-300 shadow-md hover:shadow-lg rounded-md"
+              href="/bookconsultation"
+              className="inline-flex items-center cursor-pointer justify-center px-10 py-4 bg-[#eb7147] hover:bg-[#d15e37] text-white text-xl font-medium transition-colors duration-300 shadow-md hover:shadow-lg rounded-md"
             >
               Schedule An Appointment
               <BsArrowRight className="h-5 w-5 ml-3" />

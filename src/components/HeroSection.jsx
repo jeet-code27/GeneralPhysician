@@ -47,13 +47,13 @@ const HeroSection = () => {
               
             {/* Updated Description Text */}
             <p className="text-base font-semibold md:text-lg text-[#2d5134] opacity-90 max-w-2xl mx-auto mb-6 md:mb-8 leading-relaxed">
-              Experience personalized care with Dr. Gauri Mehra, our certified Dietician, and Dr. Manish Sharma, our experienced General Physician. Together, they provide comprehensive wellness solutions tailored just for you.
+              Experience personalized care with Dr. Manish Sharma, our experienced General Physician, and Dr. Gauri Mehra, our certified Dietician. Together, they provide comprehensive wellness solutions tailored just for you.
             </p>
               
             {/* CTA Button */}
             <div className="mb-10 md:mb-12">
               <Link
-                href="/appointment"
+                href="/bookconsultation"
                 className="inline-flex items-center justify-center px-6 py-2 md:px-8 md:py-3 bg-[#eb7147] hover:bg-[#d15e37] text-white text-base md:text-lg font-medium transition-colors duration-300 shadow-md hover:shadow-lg rounded-sm"
               >
                 Book An Appointment

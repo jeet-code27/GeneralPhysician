@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaPhone, FaClock, FaMapMarkerAlt, FaCheckCircle } from 'react-icons/fa';
 
@@ -171,9 +172,11 @@ const DoctorsSection = () => {
         </div>
         
         <div className="mt-16 text-center">
-          <button className="bg-[#e87461] hover:bg-[#d56753] text-white font-bold py-4 px-10 rounded-lg transition duration-300 transform hover:scale-105 shadow-lg">
+          <Link href="/bookconsultation">
+          <button className="bg-[#e87461] hover:bg-[#d56753] cursor-pointer text-white cursor-pointer font-bold py-4 px-10 rounded-lg transition duration-300 transform hover:scale-105 shadow-lg">
             Book An Appointment Today
           </button>
+          </Link>
         </div>
       </div>
     </section>

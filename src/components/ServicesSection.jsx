@@ -15,7 +15,7 @@ const ServicesSection = () => {
         {/* Section Title */}
         <div className="text-center mb-16">
           <p className={`${berkshire.className} text-xl text-[#eb7147] mb-2`}>
-            Services
+            Our Treatments
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-[#2d5134] mb-6">
             The Essential Support Of<br />
@@ -23,9 +23,9 @@ const ServicesSection = () => {
           </h2>
         </div>
   {/* Services Cards - Dr. Manish's Services */}
-  <div>
+  <div className='mb-24'>
           <h3 className={`${berkshire.className} text-2xl md:text-3xl text-[#2d5134] text-center mb-12`}>
-            Dr. Manish Sharma - Medical Services
+          Expert Diagnosis & Treatment – Dr. Manish Sharma
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
@@ -40,7 +40,7 @@ const ServicesSection = () => {
               </div>
               <h4 className="text-xl font-semibold text-[#2d5134] mb-3">Preventive Care</h4>
               <p className="text-gray-600 mb-4">
-                Comprehensive health check-ups and preventive measures for seasonal diseases including typhoid and dengue.
+                Comprehensive health check-ups and preventive measures for abdominal conditions and seasonal diseases including typhoid and dengue.
               </p>
               <Link href="/services/preventive-care" className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]">
                 Learn More 
@@ -51,25 +51,25 @@ const ServicesSection = () => {
             </div>
 
             {/* Service 2 */}
-            <div className="text-center group">
-              <div className="mb-6 flex justify-center">
-                <div className="w-20 h-20 flex items-center justify-center rounded-full border-2 border-[#eb7147] group-hover:bg-[#eb7147] transition-colors duration-300">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-[#eb7147] group-hover:text-white transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                  </svg>
+              <div className="text-center group">
+                <div className="mb-6 flex justify-center">
+                  <div className="w-20 h-20 flex items-center justify-center rounded-full border-2 border-[#eb7147] group-hover:bg-[#eb7147] transition-colors duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-[#eb7147] group-hover:text-white transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                    </svg>
+                  </div>
                 </div>
+                <h4 className="text-xl font-semibold text-[#2d5134] mb-3">Chronic Disease Management</h4>
+                <p className="text-gray-600 mb-4">
+                  Specialized care for diabetes, blood pressure, cardiac conditions, thyroid issues, respiratory issues, abdominal conditions and other chronic health concerns.
+                </p>
+                <Link href="/services/chronic-disease" className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]">
+                  View Details 
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </Link>
               </div>
-              <h4 className="text-xl font-semibold text-[#2d5134] mb-3">Chronic Disease Management</h4>
-              <p className="text-gray-600 mb-4">
-                Specialized care for diabetes, cardiac conditions, thyroid issues, and other chronic health concerns.
-              </p>
-              <Link href="/services/chronic-disease" className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]">
-                View Details 
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
-                  <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-              </Link>
-            </div>
 
             {/* Service 3 */}
             <div className="text-center group">
@@ -82,7 +82,7 @@ const ServicesSection = () => {
               </div>
               <h4 className="text-xl font-semibold text-[#2d5134] mb-3">Specialized Treatment</h4>
               <p className="text-gray-600 mb-4">
-                Expert care for respiratory problems, mental health concerns, and bone & spine conditions.
+                Expert care for diabetes, respiratory problems,  blood pressure, mental health concerns, cardiac problems and abdominal conditions.
               </p>
               <Link href="/services/specialized-treatment" className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]">
                 Learn More 
@@ -94,9 +94,9 @@ const ServicesSection = () => {
           </div>
         </div>
         {/* Services Cards - Dr. Gauri's Services */}
-        <div className="mb-24">
+        <div>
           <h3 className={`${berkshire.className} text-2xl md:text-3xl text-[#2d5134] text-center mb-12`}>
-            Dr. Gauri Mehra - Nutrition Services
+          Personalized Nutrition by Dr. Gauri Mehra
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
@@ -111,7 +111,7 @@ const ServicesSection = () => {
               </div>
               <h4 className="text-xl font-semibold text-[#2d5134] mb-3">Nutrition Counseling</h4>
               <p className="text-gray-600 mb-4">
-                Personalized nutrition counseling based on your lifestyle, dietary habits, health goals, and medical conditions.
+                Personalized nutrition related to medical issue counseling based on your lifestyle, dietary habits, health goals, and medical conditions.
               </p>
               <Link href="/services/nutrition-counseling" className="inline-flex items-center text-[#eb7147] hover:text-[#d15e37]">
                 Learn More 

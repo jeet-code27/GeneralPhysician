@@ -100,7 +100,7 @@ const Footer = () => {
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                   </svg>
-                  <span>office@testing.com</span>
+                  <span>gaurnishhealth@gmail.com</span>
                 </p>
               </div>
               
@@ -171,11 +171,11 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/doctors" className="hover:text-green-600 transition-colors flex items-center group">
+                  <Link href="/bookconsultation" className="hover:text-green-600 transition-colors flex items-center group">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 sm:h-5 sm:w-5 mr-2 text-green-700 group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                     </svg>
-                    <span>Our Doctors</span>
+                    <span>Book Consultation</span>
                   </Link>
                 </li>
               </ul>
@@ -196,7 +196,7 @@ const Footer = () => {
       <div className="py-6 sm:py-8 bg-gray-50">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm sm:text-base text-gray-500 mb-4 md:mb-0 text-center md:text-left">
-            © Copyright 2025, Developed and maintained by SEOcial Media Solutions. All rights reserved.
+            © Copyright 2025, Developed and maintained by <Link href='https://seocialmedia.in/' target='_blank' className='cursor-pointer'> SEOcial Media Solutions.</Link> All rights reserved.
           </div>
           <div className="flex space-x-4 sm:space-x-8 text-sm sm:text-base">
             <Link href="/" className="text-gray-500 hover:text-green-800 transition-colors">

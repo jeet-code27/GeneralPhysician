@@ -1,4 +1,5 @@
 import AboutUsHero from "@/components/AboutUsHero";
+import ContactPage from "@/components/ContactPage";
 
 export default function Contact() { 
     return (
@@ -11,6 +12,8 @@ export default function Contact() {
     { label: 'Contact Us', path: '/contact' },
   ]}
 />
+
+<ContactPage/>
 
            </>
     );

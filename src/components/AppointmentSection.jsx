@@ -56,8 +56,8 @@ const AppointmentSection = () => {
             {/* CTA Button */}
             <div className="mb-4 md:mb-0">
               <Link
-                href="/appointment"
-                className="inline-flex items-center justify-center px-6 py-2 md:px-8 md:py-3 bg-[#eb7147] hover:bg-[#d15e37] text-white text-base md:text-lg font-medium transition-colors duration-300 shadow-md hover:shadow-lg rounded-sm"
+                href="/bookconsultation"
+                className="inline-flex items-center justify-center cursor-pointer px-6 py-2 md:px-8 md:py-3 bg-[#eb7147] hover:bg-[#d15e37] text-white text-base md:text-lg font-medium transition-colors duration-300 shadow-md hover:shadow-lg rounded-sm"
               >
                 Book An Appointment Today
               </Link>

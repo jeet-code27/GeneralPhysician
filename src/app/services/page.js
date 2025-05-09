@@ -6,11 +6,11 @@ export default function Services() {
   return (
     <>
     <AboutUsHero 
-  title="Our Services" 
-  description="Learn about our services and mission to provide exceptional care."
+  title="Our Treatments" 
+  description="Learn about our treatments and mission to provide exceptional care."
   breadcrumbs={[
     { label: 'Home', path: '/' },
-    { label: 'Services', path: '/services' },
+    { label: 'Treatments', path: '/services' },
     // { label: 'Our Story', path: '/about/story' }
   ]}
 />
