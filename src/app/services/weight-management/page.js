@@ -10,6 +10,56 @@ const berkshire = Berkshire_Swash({
   weight: '400',
 });
 
+
+export const metadata = {
+  metadataBase: new URL('https://gaurnishhealth.in'),
+  title: 'Best Weight Management in Ajmer | Doctor-Supervised Plans | Dr. Gauri Mehra',
+  description: 'Medical weight management programs by Ajmer\'s top physician Dr. Gauri Mehra. Personalized sustainable weight loss plans for diabetes, PCOS & metabolic health with 15+ years expertise.',
+  alternates: {
+    canonical: 'https://gaurnishhealth.in/services/weight-management'
+  },
+  keywords: [
+    'weight management Ajmer',
+    'medical weight loss program',
+    'Dr. Gauri Mehra weight loss',
+    'sustainable weight loss Ajmer',
+    'diabetes weight management',
+    'PCOS weight loss specialist',
+    'obesity treatment Ajmer',
+    'Ajmer weight loss doctor',
+    'personalized weight loss plans',
+    'doctor-supervised diet plans',
+    'healthy weight loss strategies',
+    'metabolic health optimization',
+    'weight loss for chronic conditions',
+    'non-surgical weight management',
+    'Indian weight loss programs',
+    'long-term weight maintenance',
+    'Ajmer bariatric physician'
+  ],
+  openGraph: {
+    title: 'Best Weight Management in Ajmer | Doctor-Supervised Plans | Dr. Gauri Mehra',
+    description: 'Medical weight management programs by Ajmer\'s top physician Dr. Gauri Mehra for diabetes, PCOS & metabolic health with sustainable results.',
+    url: 'https://gaurnishhealth.in/services/weight-management',
+    siteName: 'GaurNish Health',
+    images: [
+      {
+        url: '/images/weight-management-og-image.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Weight Management in Ajmer | Doctor-Supervised Plans | Dr. Gauri Mehra',
+    description: 'Medical weight loss programs by Ajmer\'s top physician Dr. Gauri Mehra for diabetes, PCOS & metabolic health.',
+    images: ['/images/weight-management-og-image.jpg'],
+  },
+};
+
 export default function WeightManagement() {
   return (
     <>

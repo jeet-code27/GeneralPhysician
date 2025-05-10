@@ -9,14 +9,54 @@ const berkshire = Berkshire_Swash({
   subsets: ['latin'],
   weight: '400',
 });
-
+export const metadata = {
+  metadataBase: new URL('https://gaurnishhealth.in'),
+  title: 'Best Chronic Disease Management in Ajmer | Dr. Manish Sharma - Best General Physician',
+  description: 'Expert long-term care for diabetes, hypertension, thyroid & heart conditions by Dr. Manish Sharma, Ajmer\'s top general physician. Personalized treatment plans for chronic illnesses.',
+  alternates: {
+    canonical: 'https://gaurnishhealth.in/services/chronic-disease-management'
+  },
+  keywords: [
+    'chronic disease management Ajmer',
+    'diabetes care Ajmer',
+    'hypertension treatment',
+    'thyroid disorder management',
+    'heart condition care',
+    'long-term illness treatment',
+    'Dr. Manish Sharma chronic care',
+    'best general physician for diabetes',
+    'respiratory disease management',
+    'arthritis treatment Ajmer',
+    'kidney disease care',
+    'lifestyle disease management',
+    'preventive healthcare Ajmer'
+  ],
+  openGraph: {
+    title: 'Chronic Disease Management in Ajmer | Dr. Manish Sharma',
+    description: 'Comprehensive care for long-term health conditions by Ajmer\'s leading general physician',
+    url: 'https://gaurnishhealth.in/services/chronic-disease-management',
+    siteName: 'GaurNish Health',
+    images: [
+      {
+        url: '/images/chronic-care-og.jpg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Expert Chronic Disease Management in Ajmer',
+    description: 'Personalized long-term care plans for diabetes, heart conditions and more by Dr. Manish Sharma',
+    images: ['/images/chronic-care-og.jpg'],
+  },
+};
 export default function ChronicDiseaseManagement() {
   return (
     <>
-      <Head>
-        <title>Chronic Disease Management | Best General Physician Care</title>
-        <meta name="description" content="Expert care for diabetes, blood pressure, cardiac conditions, thyroid issues and other chronic health problems by top general physicians" />
-      </Head>
+     
 
       {/* Hero Section with background */}
       <div className="relative bg-[#f5f9f0] md:py-28 py-24 overflow-hidden">

@@ -13,45 +13,45 @@ function getBlogs() {
 }
 
 // Generate metadata for each blog page
-// export async function generateMetadata({ params }) {
-//   // We need to await the params object first
-//   const resolvedParams = await params;
-//   const slug = resolvedParams.slug;
+export async function generateMetadata({ params }) {
+  // We need to await the params object first
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
   
-//   const blogs = getBlogs();
-//   const blog = blogs.find((blog) => blog.slug === slug);
+  const blogs = getBlogs();
+  const blog = blogs.find((blog) => blog.slug === slug);
   
-//   if (!blog) {
-//     return {
-//       title: 'Blog Not Found',
-//     };
-//   }
+  if (!blog) {
+    return {
+      title: 'Blog Not Found',
+    };
+  }
   
-//   return {
-//     title: `${blog.title}`,
-//     description: blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
-//     openGraph: {
-//       title: blog.title,
-//       description: blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
-//       type: 'article',
-//       url: `https://gaurnishhealth.in/blog/${blog.slug}`,
-//       images: [
-//         {
-//           url: blog.image || '/images/placeholder.jpg',
-//           width: 1200,
-//           height: 630,
-//           alt: blog.alt || blog.title,
-//         },
-//       ],
-//     },
-//     twitter: {
-//       card: 'summary_large_image',
-//       title: blog.title,
-//       description: blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
-//       images: [blog.image || '/images/placeholder.jpg'],
-//     },
-//   };
-// }
+  return {
+    title: `${blog.title}`,
+    description: blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
+    openGraph: {
+      title: blog.title,
+      description: blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
+      type: 'article',
+      url: `https://gaurnishhealth.in/blog/${blog.slug}`,
+      images: [
+        {
+          url: blog.image || '/images/placeholder.jpg',
+          width: 1200,
+          height: 630,
+          alt: blog.alt || blog.title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: blog.title,
+      description: blog.metaDescription || blog.excerpt || blog.content.substring(0, 160),
+      images: [blog.image || '/images/placeholder.jpg'],
+    },
+  };
+}
 
 // Custom blog content renderer component
 function BlogContent({ content }) {

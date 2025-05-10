@@ -1,5 +1,5 @@
 // pages/services/nutrition-counseling.js
-import Head from 'next/head';
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Berkshire_Swash } from 'next/font/google';
@@ -10,13 +10,62 @@ const berkshire = Berkshire_Swash({
   weight: '400',
 });
 
+
+
+export const metadata = {
+  metadataBase: new URL('https://gaurnishhealth.in'),
+  title: 'Best Nutrition Counseling in Ajmer | Medical Diet Plans | Dr. Gauri Mehra',
+  description: 'Personalized nutrition counseling by Ajmer\'s top dietician Dr. Gauri Mehra. Medical nutrition therapy for diabetes, PCOS, weight management & chronic diseases with 15+ years expertise.',
+  alternates: {
+    canonical: 'https://gaurnishhealth.in/services/nutrition-counseling'
+  },
+  keywords: [
+    'nutrition counseling Ajmer',
+    'medical nutrition therapy',
+    'Dr. Gauri Mehra dietician',
+    'diabetes diet plan Ajmer',
+    'PCOS nutrition specialist',
+    'weight management counseling',
+    'chronic disease diet plans',
+    'Ajmer nutritionist consultation',
+    'personalized diet counseling',
+    'doctor-designed nutrition plans',
+    'Indian dietitian services',
+    'health condition meal plans',
+    'family nutrition counseling',
+    'evidence-based dietary advice',
+    'medical weight loss programs',
+    'Ajmer diet doctor',
+    'nutrition for chronic illnesses'
+  ],
+  openGraph: {
+    title: 'Best Nutrition Counseling in Ajmer | Medical Diet Plans | Dr. Gauri Mehra',
+    description: 'Personalized nutrition counseling by Ajmer\'s top dietician Dr. Gauri Mehra for diabetes, PCOS, weight management & chronic diseases with 15+ years expertise.',
+    url: 'https://gaurnishhealth.in/services/nutrition-counseling',
+    siteName: 'GaurNish Health',
+    images: [
+      {
+        url: '/images/nutrition-counseling-og-image.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Nutrition Counseling in Ajmer | Medical Diet Plans | Dr. Gauri Mehra',
+    description: 'Personalized nutrition counseling by Ajmer\'s top dietician Dr. Gauri Mehra for diabetes, PCOS, weight management & chronic diseases.',
+    images: ['/images/nutrition-counseling-og-image.jpg'],
+  },
+};
+
+
 export default function NutritionCounseling() {
   return (
     <>
-      <Head>
-        <title>Nutrition Counseling | Best General Physician Care in Ajmer</title>
-        <meta name="description" content="Get expert nutrition counseling in Ajmer from top general physicians. Simple, personalized diet plans for medical conditions, weight control, and healthy living." />
-      </Head>
+    
 
       {/* Hero Section with background */}
       <div className="relative bg-[#f5f9f0] md:py-28 py-24 overflow-hidden">

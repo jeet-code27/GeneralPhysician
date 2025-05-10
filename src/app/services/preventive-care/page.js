@@ -10,13 +10,59 @@ const berkshire = Berkshire_Swash({
   weight: '400',
 });
 
+export const metadata = {
+  metadataBase: new URL('https://gaurnishhealth.in'),
+  title: 'Best Preventive Care in Ajmer | Health Check-ups & Screenings | Dr. Manish Sharma',
+  description: 'Comprehensive preventive care services in Ajmer by Dr. Manish Sharma. Early detection health check-ups, disease prevention screenings, and personalized wellness plans for optimal health.',
+  alternates: {
+    canonical: 'https://gaurnishhealth.in/services/preventive-care'
+  },
+  keywords: [
+    'best preventive care Ajmer',
+    'health check-ups Ajmer',
+    'disease screening Ajmer',
+    'Dr. Manish Sharma preventive medicine',
+    'annual health checkup Ajmer',
+    'early disease detection Ajmer',
+    'preventive healthcare clinic Ajmer',
+    'full body checkup Ajmer',
+    'vaccination center Ajmer',
+    'seasonal disease prevention Ajmer',
+    'health screening packages',
+    'medical checkup near me',
+    'top general physician for preventive care',
+    'Ajmer preventive health services',
+    'wellness exams Ajmer',
+    'preventive cardiology Ajmer',
+    'diabetes prevention program',
+    'hypertension screening Ajmer'
+  ],
+  openGraph: {
+    title: 'Best Preventive Care in Ajmer | Health Check-ups & Screenings | Dr. Manish Sharma',
+    description: 'Comprehensive preventive care services in Ajmer by Dr. Manish Sharma. Early detection health check-ups and personalized wellness plans.',
+    url: 'https://gaurnishhealth.in/services/preventive-care',
+    siteName: 'GaurNish Health',
+    images: [
+      {
+        url: '/images/preventive-care-og-image.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Preventive Care in Ajmer | Health Check-ups & Screenings | Dr. Manish Sharma',
+    description: 'Comprehensive preventive care services in Ajmer by Dr. Manish Sharma. Early detection health check-ups and personalized wellness plans.',
+    images: ['/images/preventive-care-og-image.jpg'],
+  },
+};
+
 export default function PreventiveCare() {
   return (
     <>
-      <Head>
-        <title>Preventive Care Services | Clinic Name</title>
-        <meta name="description" content="Comprehensive health check-ups and preventive measures for abdominal conditions and seasonal diseases" />
-      </Head>
 
       {/* Hero Section with background */}
       <div className="relative bg-[#f5f9f0] md:py-28 py-24 overflow-hidden">

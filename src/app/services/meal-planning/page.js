@@ -10,13 +10,58 @@
     weight: '400',
     });
 
+    export const metadata = {
+  metadataBase: new URL('https://gaurnishhealth.in'),
+  title: 'Best Meal Planning in Ajmer | Dietician-Designed Plans | Dr. Gauri Mehra',
+  description: 'Get personalized meal plans from Ajmer\'s top dietician Dr. Gauri Mehra. Custom weekly/monthly plans for weight loss, diabetes, PCOS & family nutrition with local ingredients.',
+  alternates: {
+    canonical: 'https://gaurnishhealth.in/services/meal-planning'
+  },
+  keywords: [
+    'best meal planning Ajmer',
+    'dietician in Ajmer',
+    'Dr. Gauri Mehra meal plans',
+    'weight loss diet plan',
+    'diabetes meal plan Ajmer',
+    'PCOS diet specialist',
+    'family nutrition planning',
+    'healthy eating plans Ajmer',
+    'Indian diet plans',
+    'nutritionist consultation Ajmer',
+    'personalized diet chart',
+    'weekly meal planner',
+    'medical nutrition therapy',
+    'Ajmer dietician services',
+    'healthy recipes for families',
+    'doctor-designed meal plans',
+    'weight management dietitian'
+  ],
+  openGraph: {
+    title: 'Best Meal Planning in Ajmer | Dietician-Designed Plans | Dr. Gauri Mehra',
+    description: 'Personalized meal plans by Ajmer\'s top dietician Dr. Gauri Mehra for weight loss, diabetes, PCOS & family nutrition using local ingredients.',
+    url: 'https://gaurnishhealth.in/services/meal-planning',
+    siteName: 'GaurNish Health',
+    images: [
+      {
+        url: '/images/meal-planning-og-image.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Meal Planning in Ajmer | Dietician-Designed Plans | Dr. Gauri Mehra',
+    description: 'Personalized meal plans by Ajmer\'s top dietician Dr. Gauri Mehra for weight loss, diabetes, PCOS & family nutrition using local ingredients.',
+    images: ['/images/meal-planning-og-image.jpg'],
+  },
+};
     export default function MealPlanning() {
     return (
         <>
-        <Head>
-            <title>Meal Planning | Best General Physician Care in Ajmer</title>
-            <meta name="description" content="Get customized weekly and monthly meal plans from Ajmer's top physicians with simple recipes and shopping lists designed to improve your health and meet your goals." />
-        </Head>
+      
 
         {/* Hero Section with background */}
         <div className="relative bg-[#f5f9f0] md:py-28 py-24 overflow-hidden">

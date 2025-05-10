@@ -4,6 +4,51 @@ import path from 'path';
 import Link from 'next/link';
 import Image from 'next/image';
 
+export const metadata = {
+  metadataBase: new URL('https://gaurnishhealth.in'),
+  title: 'Health Blog by Ajmer\'s Best Doctors | Dr. Manish Sharma & Dr. Gauri Mehra',
+  description: 'Expert health articles and wellness tips from Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician) - Ajmer\'s leading healthcare specialists.',
+  alternates: {
+    canonical: 'https://gaurnishhealth.in/blog'
+  },
+  keywords: [
+    'health blog ajmer',
+    'medical articles by doctors',
+    'wellness tips physician',
+    'nutrition advice dietician',
+    'Dr. Manish Sharma blog',
+    'Dr. Gauri Mehra articles',
+    'healthcare tips ajmer',
+    'chronic disease management blog',
+    'weight loss advice doctors',
+    'diabetes care articles',
+    'healthy lifestyle tips',
+    'preventive healthcare blog',
+    'doctor written health content'
+  ],
+  openGraph: {
+    title: 'Health Blog by Ajmer\'s Best Doctors | Dr. Manish Sharma & Dr. Gauri Mehra',
+    description: 'Trusted medical advice and wellness tips from Ajmer\'s leading healthcare specialists',
+    url: 'https://gaurnishhealth.in/blog',
+    siteName: 'GaurNish Health Blog',
+    images: [
+      {
+        url: '/images/blog-og-image.jpg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Health Blog by Ajmer\'s Best Doctors | Dr. Manish Sharma & Dr. Gauri Mehra',
+    description: 'Expert medical articles and wellness guidance from Ajmer\'s specialists',
+    images: ['/images/blog-og-image.jpg'],
+  },
+};
+
 function getBlogs() {
   const filePath = path.join(process.cwd(), 'public', 'blogs.json');
   const fileData = fs.readFileSync(filePath, 'utf-8');
@@ -13,20 +58,20 @@ function getBlogs() {
 
 export default function Blog() {
   const blogs = getBlogs();
-    return (
-        < >
- <AboutUsHero
-  title="Health & Wellness Blog"
-  description="Stay informed with expert tips from Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician) on managing health, nutrition, lifestyle diseases, and wellness care."
-  breadcrumbs={[
-    { label: 'Home', path: '/' },
-    { label: 'Blog', path: '/blog' },
-  ]}
-/>
-<div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+  
+  return (
+    <>
+      <AboutUsHero
+        title="Health & Wellness Blog"
+        description="Stay informed with expert tips from Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician) on managing health, nutrition, lifestyle diseases, and wellness care."
+        breadcrumbs={[
+          { label: 'Home', path: '/' },
+          { label: 'Blog', path: '/blog' },
+        ]}
+      />
+      
+      <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-         
-          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {blogs.map((blog) => (
               <article 
@@ -89,8 +134,6 @@ export default function Blog() {
           </div>
         </div>
       </div>
-
-
-        </>
-    );
+    </>
+  );
 }

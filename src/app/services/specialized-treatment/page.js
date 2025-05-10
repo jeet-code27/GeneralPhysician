@@ -10,6 +10,56 @@ const berkshire = Berkshire_Swash({
   weight: '400',
 });
 
+export const metadata = {
+  metadataBase: new URL('https://gaurnishhealth.in'),
+  title: 'Best Diabetes, Heart & Respiratory Care in Ajmer | Dr. Manish Sharma',
+  description: 'Expert specialized treatment for diabetes, hypertension, heart conditions & respiratory diseases in Ajmer by top general physician Dr. Manish Sharma. Personalized care plans for complex health issues.',
+  alternates: {
+    canonical: 'https://gaurnishhealth.in/services/specialized-treatment'
+  },
+  keywords: [
+    'best specialized treatment Ajmer',
+    'diabetes doctor in Ajmer',
+    'heart specialist in Ajmer',
+    'high blood pressure treatment',
+    'respiratory disease specialist',
+    'Dr. Manish Sharma general physician',
+    'chronic disease management Ajmer',
+    'best doctor for diabetes in Ajmer',
+    'hypertension specialist near me',
+    'asthma treatment Ajmer',
+    'COPD care Ajmer',
+    'mental health counseling Ajmer',
+    'digestive problems treatment',
+    'top general physician for specialized care',
+    'Ajmer medical specialist',
+    'comprehensive disease management',
+    'personalized treatment plans',
+    'experienced physician Ajmer'
+  ],
+  openGraph: {
+    title: 'Best Specialized Treatment in Ajmer | Diabetes, Heart & Respiratory Care | Dr. Manish Sharma',
+    description: 'Expert specialized treatment for chronic conditions in Ajmer by top general physician Dr. Manish Sharma. Personalized care for diabetes, heart and respiratory diseases.',
+    url: 'https://gaurnishhealth.in/services/specialized-treatment',
+    siteName: 'GaurNish Health',
+    images: [
+      {
+        url: '/images/specialized-treatment-og-image.jpg',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_IN',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Specialized Treatment in Ajmer | Diabetes, Heart & Respiratory Care | Dr. Manish Sharma',
+    description: 'Expert specialized treatment for chronic conditions in Ajmer by top general physician Dr. Manish Sharma. Personalized care for diabetes, heart and respiratory diseases.',
+    images: ['/images/specialized-treatment-og-image.jpg'],
+  },
+};
+
 export default function SpecializedTreatment() {
   return (
     <>
@@ -452,12 +502,7 @@ export default function SpecializedTreatment() {
             </p>
           </div>
           
-          {/* <div className="border-b border-gray-200 pb-4">
-            <h3 className="text-xl font-semibold text-[#2d5134] mb-2">Do you provide home visits in Ajmer?</h3>
-            <p className="text-gray-700">
-              Yes, for patients who cannot come to our clinic due to serious health problems, we can arrange home visits within Ajmer city limits. Please call our office to discuss your needs and schedule a home visit.
-            </p>
-          </div> */}
+         
         </div>
       </div>
     </>

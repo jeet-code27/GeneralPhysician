@@ -137,7 +137,7 @@ const HeroSection = () => {
           
           <div className="text-center mt-32 md:mt-40 lg:mt-44 relative z-20">
             {/* Animated headline */}
-            <motion.h1 
+            <motion.h2 
               variants={{
                 hidden: { y: 40, opacity: 0, scale: 0.95 },
                 visible: {
@@ -154,15 +154,15 @@ const HeroSection = () => {
               className={`${berkshire.className} text-5xl md:text-6xl lg:text-7xl font-bold text-[#2d5134] mb-3 md:mb-4 leading-tight`}
             >
               Your Health, Our Priority
-            </motion.h1>
+            </motion.h2>
               
             {/* Animated description */}
-            <motion.p 
+            <motion.h1 
               variants={item}
               className="text-base font-semibold md:text-lg text-[#2d5134] opacity-90 max-w-2xl mx-auto mb-6 md:mb-8 leading-relaxed"
             >
               Experience personalized care with Dr. Manish Sharma, our experienced General Physician, and Dr. Gauri Mehra, our certified Dietician. Together, they provide comprehensive wellness solutions tailored just for you.
-            </motion.p>
+            </motion.h1>
               
             {/* Animated CTA button */}
             <motion.div 
