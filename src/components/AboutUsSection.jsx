@@ -166,10 +166,10 @@ const AboutUsSection = () => {
                       <p className="text-gray-700"><span className="font-medium">Location:</span> Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</p>
                     </div>
                     
-                    <div className="flex items-center">
+                    {/* <div className="flex items-center">
                       <FaHospital className="h-5 w-5 text-[#eb7147] mr-4 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Evening:</span> 5:00 PM - 8:00 PM (Pawan Putra Medical)</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </motion.div>
@@ -273,10 +273,10 @@ const AboutUsSection = () => {
                       <p className="text-gray-700"><span className="font-medium">Location:</span> Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</p>
                     </div>
                     
-                    <div className="flex items-center">
+                    {/* <div className="flex items-center">
                       <FaHospital className="h-5 w-5 text-[#eb7147] mr-4 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Evening:</span> 5:00 PM - 8:00 PM (Pawan Putra Medical)</p>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </motion.div>

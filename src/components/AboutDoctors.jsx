@@ -267,7 +267,7 @@ const DoctorsSection = () => {
                         <span className="text-sm">Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</span>
                       </div>
                     </motion.div>
-                    <motion.div 
+                    {/* <motion.div 
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.9, duration: 0.6 }}
@@ -283,7 +283,7 @@ const DoctorsSection = () => {
                         <FaMapMarkerAlt className="text-[#609966] mr-2 mt-1 flex-shrink-0" />
                         <span className="text-sm">Pawan Putra Medical</span>
                       </div>
-                    </motion.div>
+                    </motion.div> */}
                   </div>
                 </div>
               </div>
@@ -410,7 +410,7 @@ const DoctorsSection = () => {
                         <span className="text-sm">Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</span>
                       </div>
                     </motion.div>
-                    <motion.div 
+                    {/* <motion.div 
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.9, duration: 0.6 }}
@@ -426,7 +426,7 @@ const DoctorsSection = () => {
                         <FaMapMarkerAlt className="text-[#609966] mr-2 mt-1 flex-shrink-0" />
                         <span className="text-sm">Pawan Putra Medical</span>
                       </div>
-                    </motion.div>
+                    </motion.div> */}
                   </div>
                 </div>
               </div>
