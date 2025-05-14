@@ -176,7 +176,7 @@ const AboutUsSection = () => {
                     </div>
                     <div className="flex items-start">
                       <FaLocationDot className="h-5 w-5 text-[#eb7147] mr-4 mt-1 flex-shrink-0" />
-                      <p className="text-gray-700"><span className="font-medium">Location:</span> Jeevan Jyoti Hospita, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer</p>
+                      <p className="text-gray-700"><span className="font-medium">Location:</span> Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer</p>
                     </div>
                    
                   </div>
