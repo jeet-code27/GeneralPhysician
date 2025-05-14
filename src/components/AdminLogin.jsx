@@ -227,7 +227,7 @@ const handleAcceptConsultation = async (booking) => {
       consultation_type: booking.consultationType === 'hospital' ? 'Hospital Consultation (10AM-5PM)' : 'Evening Clinic Consultation (5PM-8PM)',
       location: booking.consultationType === 'hospital' 
         ? 'Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer' 
-        : 'Pawan Putra Medical,Opposite Savitri College,Ajmer, Rajasthan 305001'
+        : 'Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan'
 
     };
 
@@ -270,7 +270,7 @@ const handleDeclineConsultation = async (booking) => {
       consultation_type: booking.consultationType === 'hospital' ? 'Hospital Consultation (10AM-5PM)' : 'Evening Clinic Consultation (5PM-8PM)',
       location: booking.consultationType === 'hospital' 
         ? 'Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer' 
-        : 'Pawan Putra Medical,Opposite Savitri College,Ajmer, Rajasthan 305001'
+        : 'Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan'
 
 
     };

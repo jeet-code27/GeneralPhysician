@@ -80,47 +80,47 @@ const BookingSystem = () => {
           location: "Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer"
         }
       },
-      // evening_clinic: {
-      //   0: { // Sunday
-      //     isClosed: true
-      //   },
-      //   1: { // Monday
-      //     start: '17:00',
-      //     end: '20:00',
-      //     isClosed: false,
-      //     location: "Pawan Putra Medical, Pushkar Road, Ajmer"
-      //   },
-      //   2: { // Tuesday
-      //     start: '17:00',
-      //     end: '20:00',
-      //     isClosed: false,
-      //     location: "Pawan Putra Medical, Pushkar Road, Ajmer"
-      //   },
-      //   3: { // Wednesday
-      //     start: '17:00',
-      //     end: '20:00',
-      //     isClosed: false,
-      //     location: "Pawan Putra Medical, Pushkar Road, Ajmer"
-      //   },
-      //   4: { // Thursday
-      //     start: '17:00',
-      //     end: '20:00',
-      //     isClosed: false,
-      //     location: "Pawan Putra Medical, Pushkar Road, Ajmer"
-      //   },
-      //   5: { // Friday
-      //     start: '17:00',
-      //     end: '20:00',
-      //     isClosed: false,
-      //     location: "Pawan Putra Medical, Pushkar Road, Ajmer"
-      //   },
-      //   6: { // Saturday
-      //     start: '17:00',
-      //     end: '20:00',
-      //     isClosed: false,
-      //     location: "Pawan Putra Medical, Pushkar Road, Ajmer"
-      //   }
-      // }
+      evening_clinic: {
+        0: { // Sunday
+          isClosed: true
+        },
+        1: { // Monday
+          start: '17:00',
+          end: '20:00',
+          isClosed: false,
+          location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
+        },
+        2: { // Tuesday
+          start: '17:00',
+          end: '20:00',
+          isClosed: false,
+          location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
+        },
+        3: { // Wednesday
+          start: '17:00',
+          end: '20:00',
+          isClosed: false,
+          location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
+        },
+        4: { // Thursday
+          start: '17:00',
+          end: '20:00',
+          isClosed: false,
+          location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
+        },
+        5: { // Friday
+          start: '17:00',
+          end: '20:00',
+          isClosed: false,
+          location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
+        },
+        6: { // Saturday
+          start: '17:00',
+          end: '20:00',
+          isClosed: false,
+          location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
+        }
+      }
     },
    'dr_gauri': {
     hospital: {
@@ -537,7 +537,7 @@ const BookingSystem = () => {
                     <span className="text-xs mt-1">10:00 AM - 5:00 PM</span>
                     <span className="text-xs">Paras Urology & Multispeciality Hospital</span>
                   </button>
-                  {/* <button
+                  <button
                     type="button"
                     className={`p-4 rounded-md flex flex-col cursor-pointer items-center justify-center transition-all ${
                       consultationType === 'evening_clinic'
@@ -548,8 +548,8 @@ const BookingSystem = () => {
                   >
                     <span className="text-lg font-medium">Evening Clinic</span>
                     <span className="text-xs mt-1">5:00 PM - 8:00 PM</span>
-                    <span className="text-xs">Pawan Putra Medical</span>
-                  </button> */}
+                    <span className="text-xs">Jeevan Jyoti Hospital</span>
+                  </button>
                 </>
               )}
            {doctorType === 'dr_gauri' && (

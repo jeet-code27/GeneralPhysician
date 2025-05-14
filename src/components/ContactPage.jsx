@@ -466,7 +466,7 @@ const ContactPage = () => {
                   </div>
                   <div className="text-sm text-gray-600">
                     <p>Morning: 10:00 AM - 2:00 PM</p>
-                    <p>Evening: 5:00 PM - 8:00 PM</p>
+                    {/* <p>Evening: 5:00 PM - 8:00 PM</p> */}
                     <p>Phone: +91 9461068894</p>
                   </div>
                 </motion.div>
