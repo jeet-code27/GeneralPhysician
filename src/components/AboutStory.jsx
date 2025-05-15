@@ -188,7 +188,7 @@ const AboutStory = () => {
               </motion.div>
             </div>
            
-            <motion.div 
+            {/* <motion.div 
               variants={item}
               className="mt-8 bg-[#E7EECD] rounded-lg p-5 flex items-center shadow-md"
               whileHover={{ 
@@ -210,7 +210,7 @@ const AboutStory = () => {
                 <span className={`${berkshire.className} font-medium text-xl text-[#2d5134]`}>Serving Ajmer</span>
                 <p className="text-gray-700">since 20xx</p>
               </div>
-            </motion.div>
+            </motion.div> */}
           </div>
          
           <motion.div 
