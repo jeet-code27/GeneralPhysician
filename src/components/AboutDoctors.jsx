@@ -277,7 +277,7 @@ const DoctorsSection = () => {
                       <h5 className="font-bold text-[#2e5d3c] mb-2">Evening</h5>
                       <div className="flex items-center mb-2">
                         <FaClock className="text-[#609966] mr-2" />
-                        <span>5:00 PM - 8:00 PM</span>
+                        <span>5:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></span>
                       </div>
                       <div className="flex items-start">
                         <FaMapMarkerAlt className="text-[#609966] mr-2 mt-1 flex-shrink-0" />
@@ -408,6 +408,23 @@ const DoctorsSection = () => {
                       <div className="flex items-start">
                         <FaMapMarkerAlt className="text-[#609966] mr-2 mt-1 flex-shrink-0" />
                         <span className="text-sm">Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</span>
+                      </div>
+                    </motion.div>
+                      <motion.div 
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.9, duration: 0.6 }}
+                      whileHover={{ y: -5, boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.1)" }}
+                      className="bg-[#f3f8e9] p-4 rounded-lg"
+                    >
+                      <h5 className="font-bold text-[#2e5d3c] mb-2">Evening</h5>
+                      <div className="flex items-center mb-2">
+                        <FaClock className="text-[#609966] mr-2" />
+                        <span>5:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></span>
+                      </div>
+                      <div className="flex items-start">
+                        <FaMapMarkerAlt className="text-[#609966] mr-2 mt-1 flex-shrink-0" />
+                        <span className="text-sm">Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan</span>
                       </div>
                     </motion.div>
                     {/* <motion.div 

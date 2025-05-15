@@ -172,7 +172,7 @@ const AboutUsSection = () => {
                     
                        <div className="flex items-center">
                       <FaHospital className="h-5 w-5 text-[#eb7147] mr-4 flex-shrink-0" />
-                      <p className="text-gray-700"><span className="font-medium">Evening Hours:</span> 5:00 PM - 8:00 PM</p>
+                      <p className="text-gray-700"><span className="font-medium">Evening Hours:</span> 5:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></p>
                     </div>
                     <div className="flex items-start">
                       <FaLocationDot className="h-5 w-5 text-[#eb7147] mr-4 mt-1 flex-shrink-0" />
@@ -274,12 +274,21 @@ const AboutUsSection = () => {
                   <div className="space-y-4">
                     <div className="flex items-center">
                       <FaClock className="h-5 w-5 text-[#eb7147] mr-4 flex-shrink-0" />
-                      <p className="text-gray-700"><span className="font-medium">Hours:</span> 10:00 AM - 2:00 PM</p>
+                      <p className="text-gray-700"><span className="font-medium">Morning Hours:</span> 10:00 AM - 5:00 PM</p>
                     </div>
                     
                     <div className="flex items-start">
                       <FaLocationDot className="h-5 w-5 text-[#eb7147] mr-4 mt-1 flex-shrink-0" />
                       <p className="text-gray-700"><span className="font-medium">Location:</span> Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer</p>
+                    </div>
+
+                       <div className="flex items-center">
+                      <FaHospital className="h-5 w-5 text-[#eb7147] mr-4 flex-shrink-0" />
+                      <p className="text-gray-700"><span className="font-medium">Evening Hours:</span> 5:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></p>
+                    </div>
+                    <div className="flex items-start">
+                      <FaLocationDot className="h-5 w-5 text-[#eb7147] mr-4 mt-1 flex-shrink-0" />
+                      <p className="text-gray-700"><span className="font-medium">Location:</span> Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer</p>
                     </div>
                     
                     {/* <div className="flex items-center">
