@@ -438,7 +438,7 @@ const ContactPage = () => {
                   </div>
                   <div className="text-sm text-gray-600">
                     <p>Morning: 10:00 AM - 5:00 PM</p>
-                    <p>Evening: 5:00 PM - 8:00 PM </p>
+                    <p>Evening: 6:00 PM - 8:00 PM </p>
                     <b>(Prior Appointment Only)</b>
                     <p>Phone: +91 8690761918</p>
                   </div>
@@ -466,8 +466,8 @@ const ContactPage = () => {
                     </div>
                   </div>
                   <div className="text-sm text-gray-600">
-                    <p>Morning: 10:00 AM 5:00 PM</p>
-                    <p>Evening: 5:00 PM - 8:00 PM</p>
+                    <p>Morning: 10:00 AM - 2:00 PM</p>
+                    <p>Evening: 6:00 PM - 8:00 PM</p>
                      <b>(Prior Appointment Only)</b>
                     <p>Phone: +91 9461068894</p>
                   </div>

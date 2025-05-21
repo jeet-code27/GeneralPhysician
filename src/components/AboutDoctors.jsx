@@ -277,7 +277,7 @@ const DoctorsSection = () => {
                       <h5 className="font-bold text-[#2e5d3c] mb-2">Evening</h5>
                       <div className="flex items-center mb-2">
                         <FaClock className="text-[#609966] mr-2" />
-                        <span>5:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></span>
+                        <span>6:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></span>
                       </div>
                       <div className="flex items-start">
                         <FaMapMarkerAlt className="text-[#609966] mr-2 mt-1 flex-shrink-0" />
@@ -420,7 +420,7 @@ const DoctorsSection = () => {
                       <h5 className="font-bold text-[#2e5d3c] mb-2">Evening</h5>
                       <div className="flex items-center mb-2">
                         <FaClock className="text-[#609966] mr-2" />
-                        <span>5:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></span>
+                        <span>6:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></span>
                       </div>
                       <div className="flex items-start">
                         <FaMapMarkerAlt className="text-[#609966] mr-2 mt-1 flex-shrink-0" />

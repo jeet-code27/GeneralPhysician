@@ -45,7 +45,7 @@ const BookingSystem = () => {
         },
         1: { // Monday
           start: '10:00',
-          end: '17:00',
+          end: '18:00',
           isClosed: false,
           location: "Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer"
         },
@@ -85,37 +85,37 @@ const BookingSystem = () => {
           isClosed: true
         },
         1: { // Monday
-          start: '17:00',
+          start: '18:00',
           end: '20:00',
           isClosed: false,
           location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
         },
         2: { // Tuesday
-          start: '17:00',
+          start: '18:00',
           end: '20:00',
           isClosed: false,
           location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
         },
         3: { // Wednesday
-          start: '17:00',
+          start: '18:00',
           end: '20:00',
           isClosed: false,
           location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
         },
         4: { // Thursday
-          start: '17:00',
+          start: '18:00',
           end: '20:00',
           isClosed: false,
           location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
         },
         5: { // Friday
-          start: '17:00',
+          start: '18:00',
           end: '20:00',
           isClosed: false,
           location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
         },
         6: { // Saturday
-          start: '17:00',
+          start: '18:00',
           end: '20:00',
           isClosed: false,
           location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
@@ -129,37 +129,37 @@ const BookingSystem = () => {
       },
       1: { // Monday
         start: '10:00',
-        end: '17:00',
+        end: '14:00',
         isClosed: false,
         location: "Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer"
       },
       2: { // Tuesday
         start: '10:00',
-        end: '17:00',
+        end: '14:00',
         isClosed: false,
         location: "Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer"
       },
       3: { // Wednesday
         start: '10:00',
-        end: '17:00',
+        end: '14:00',
         isClosed: false,
         location: "Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer"
       },
       4: { // Thursday
         start: '10:00',
-        end: '17:00',
+        end: '14:00',
         isClosed: false,
         location: "Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer"
       },
       5: { // Friday
         start: '10:00',
-        end: '17:00',
+        end: '14:00',
         isClosed: false,
         location: "Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer"
       },
       6: { // Saturday
         start: '10:00',
-        end: '17:00',
+        end: '14:00',
         isClosed: false,
         location: "Paras Urology & Multispeciality Hospital, Haribhau Upadhyay Nagar, C-Block, Pushkar Road, Ajmer"
       }
@@ -169,37 +169,37 @@ const BookingSystem = () => {
         isClosed: true
       },
       1: { // Monday
-        start: '17:00',
+        start: '18:00',
         end: '20:00',
         isClosed: false,
         location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
       },
       2: { // Tuesday
-        start: '17:00',
+        start: '18:00',
         end: '20:00',
         isClosed: false,
         location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
       },
       3: { // Wednesday
-        start: '17:00',
+        start: '18:00',
         end: '20:00',
         isClosed: false,
         location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
       },
       4: { // Thursday
-        start: '17:00',
+        start: '18:00',
         end: '20:00',
         isClosed: false,
         location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
       },
       5: { // Friday
-        start: '17:00',
+        start: '18:00',
         end: '20:00',
         isClosed: false,
         location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
       },
       6: { // Saturday
-        start: '17:00',
+        start: '18:00',
         end: '20:00',
         isClosed: false,
         location: "Jeevan Jyoti Hospital, 19, 26B, Beawar Rd, Nai Basti, Ramganj, Ajmer, Rajasthan"
@@ -547,7 +547,7 @@ const BookingSystem = () => {
                     onClick={() => setConsultationType('evening_clinic')}
                   >
                     <span className="text-lg font-medium">Evening Clinic</span>
-                    <span className="text-xs mt-1">5:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></span>
+                    <span className="text-xs mt-1">6:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></span>
                     <span className="text-xs">Jeevan Jyoti Hospital</span>
                   </button>
                 </>
@@ -564,7 +564,7 @@ const BookingSystem = () => {
       onClick={() => setConsultationType('hospital')}
     >
       <span className="text-lg font-medium">Hospital</span>
-      <span className="text-xs mt-1">10:00 AM - 5:00 PM</span>
+      <span className="text-xs mt-1">10:00 AM - 2:00 PM</span>
       <span className="text-xs">Paras Urology & Multispeciality Hospital</span>
     </button>
     <button
@@ -577,7 +577,7 @@ const BookingSystem = () => {
       onClick={() => setConsultationType('evening_clinic')}
     >
       <span className="text-lg font-medium">Evening Clinic</span>
-      <span className="text-xs mt-1">5:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></span>
+      <span className="text-xs mt-1">6:00 PM - 8:00 PM <b>(Prior Appointment Only)</b></span>
       <span className="text-xs">Jeevan Jyoti Medical</span>
     </button>
   </>
