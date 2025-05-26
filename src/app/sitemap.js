@@ -14,6 +14,7 @@ export default async function sitemap() {
     "/services/weight-management",
     "/blog",
     "/blog/best-general-physician-and-dietician-in-ajmer-gaurnish-health",
+    "/blog/best-dietician-in-ajmer-dr-gauri-mehra",
     "/contact",
     "/bookconsultation",
   ].map((route) => ({
