@@ -15,7 +15,8 @@ export default async function sitemap() {
     "/blog",
     "/blog/best-general-physician-and-dietician-in-ajmer-gaurnish-health",
     "/blog/best-dietician-in-ajmer-dr-gauri-mehra",
-    "/blogs/best-doctor-for-diabetes-in-ajmer-dr-manish-sharma",
+    "/blog/best-doctor-for-diabetes-in-ajmer-dr-manish-sharma",
+    "blog/weight-management-specialist-in-ajmer-dr-gauri-mehra",
     "/contact",
     "/bookconsultation",
   ].map((route) => ({
