@@ -2,6 +2,7 @@ import Footer from "@/components/layout/Footer";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import FloatingContact from "@/components/FloatingContact";
+import Script from "next/script";
 
 export const metadata = {
   metadataBase: new URL('https://gaurnishhealth.in'),
@@ -49,8 +50,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-
       <body>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-8Z668FLWMZ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-8Z668FLWMZ');
+          `}
+        </Script>
+
         <Navbar/>
         <main>{children}</main>
         <FloatingContact/>
