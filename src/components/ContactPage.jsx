@@ -159,13 +159,13 @@ const ContactPage = () => {
             className="bg-white rounded-xl shadow-xl overflow-hidden p-8"
           >
             <div className="mb-8">
-              <motion.h1 
+              <motion.h2 
                 variants={fadeIn}
                 className="text-[#2d5134] text-4xl font-bold mb-4"
               >
                 Have Question?<br />
                 Get In Touch
-              </motion.h1>
+              </motion.h2>
               <motion.p 
                 variants={fadeIn}
                 className="text-gray-600 mb-8"

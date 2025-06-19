@@ -53,14 +53,14 @@ const AboutUsHero = ({
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center relative">
           {/* Main Headline with new font */}
-          <motion.h1 
+          <motion.h2
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
             className={`${berkshire.className} text-5xl md:text-6xl lg:text-7xl font-bold text-[#305424] mb-6 md:mb-8 leading-tight`}
           >
             {title}
-          </motion.h1>
+          </motion.h2>
             
           {/* Description Text */}
           <motion.p 

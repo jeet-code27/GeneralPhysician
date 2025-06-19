@@ -49,6 +49,7 @@ export const metadata = {
 export default function Contact() { 
     return (
        <>   
+       <h1 className="hidden">Best Doctor in Ajmer</h1>
        <AboutUsHero
           title="Contact Us"
           description="Get in touch with Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician) for expert healthcare and personalized nutrition counselling. We are here to support your wellness journey."

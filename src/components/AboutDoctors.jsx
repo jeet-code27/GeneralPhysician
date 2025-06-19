@@ -173,7 +173,7 @@ const DoctorsSection = () => {
               
               <div className="md:w-2/3 p-8">
                 <div className="mb-6">
-                  <motion.h3 
+                  <motion.h1
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
@@ -181,7 +181,7 @@ const DoctorsSection = () => {
                     style={{ fontFamily: "'Berkshire Swash', cursive" }}
                   >
                     Dr. Manish Sharma
-                  </motion.h3>
+                  </motion.h1>
                   <motion.p 
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}

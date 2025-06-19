@@ -7,7 +7,7 @@ import WhyChooseUsSection from "@/components/WhyChooseUsSection";
 
 export const metadata = {
   metadataBase: new URL('https://gaurnishhealth.in'),
-  title: 'Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra',
+  title: 'Best General Physician - Dr. Manish Sharma',
   description: 'Dr. Manish Sharma (MD) and Dr. Gauri Mehra are the best General Physician and Dietician in Ajmer offering comprehensive healthcare services for complete wellness.',
   alternates: {
     canonical: 'https://gaurnishhealth.in/'

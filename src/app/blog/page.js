@@ -69,6 +69,8 @@ export default function Blog() {
           { label: 'Blog', path: '/blog' },
         ]}
       />
+
+      <h1 className="hidden">Stay informed with expert tips from Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician) on managing health, nutrition, lifestyle diseases, and wellness care.</h1>
       
       <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">

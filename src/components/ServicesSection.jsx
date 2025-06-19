@@ -145,12 +145,12 @@ const ServicesSection = () => {
           animate={drManishInView ? "visible" : "hidden"}
           className='mb-24'
         >
-          <motion.h3 
+          <motion.h1
             variants={titleVariants}
             className={`${berkshire.className} text-2xl md:text-3xl text-[#2d5134] text-center mb-12`}
           >
             Expert Diagnosis & Treatment – Dr. Manish Sharma
-          </motion.h3>
+          </motion.h1>
           
           <motion.div 
             variants={containerVariants}

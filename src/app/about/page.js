@@ -7,7 +7,7 @@ import AppointmentSection from "@/components/AppointmentSection";
 
 export const metadata = {
   metadataBase: new URL('https://gaurnishhealth.in'),
-  title: 'About the Best General Physician and Dietician in Ajmer | Dr. Manish Sharma & Dr. Gauri Mehra',
+  title: 'About the Best General Physician and Dietician in Ajmer',
   description: 'Learn about Ajmer\'s top healthcare specialists - Dr. Manish Sharma (General Physician) and Dr. Gauri Mehra (Dietician). Our story, values and medical approach.',
   keywords: [
     'about best doctors in ajmer',
