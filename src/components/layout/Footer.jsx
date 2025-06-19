@@ -202,7 +202,7 @@ const Footer = () => {
       <div className="py-6 sm:py-8 bg-gray-50">
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm sm:text-base text-gray-500 mb-4 md:mb-0 text-center md:text-left">
-            © Copyright 2025, Developed and maintained by <Link href='https://seocialmedia.in/' target='_blank' className='cursor-pointer'> SEOcial Media Solutions.</Link> All rights reserved.
+            © Copyright 2025, Powered by <Link href='https://seocialmedia.in/' target='_blank' className='cursor-pointer'> SEOcial Media Solutions.</Link> All rights reserved.
           </div>
           <div className="flex space-x-4 sm:space-x-8 text-sm sm:text-base">
             <Link href="/" className="text-gray-500 hover:text-green-800 transition-colors">
